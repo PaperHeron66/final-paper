@@ -1,0 +1,6 @@
+﻿外键关系,孤立键数量,结论
+fact_sales.ProductKey -> dim_product.StockCode,0,通过
+fact_sales.CountryKey -> dim_country.CountryKey,0,通过
+fact_sales.DateKey -> dim_date.Date,0,通过
+dim_customer.国家 -> dim_country.CountryKey,0,通过
+fact_sales.CustomerKey -> dim_customer.CustomerID,0,匿名交易（CustomerID 缺失）不参与客户级分析，已在事实表中标记

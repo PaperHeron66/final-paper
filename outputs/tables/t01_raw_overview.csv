@@ -1,0 +1,13 @@
+﻿,值
+数据源,UCI Online Retail II
+数据集主页,https://archive.ics.uci.edu/dataset/502/online+retail+ii
+原始记录数,1067371
+字段数,8
+工作表数,2
+时间起,2009-12-01
+时间止,2011-12-09
+客户数（去重，含空）,5942
+国家数,43
+商品编码数,5305
+CustomerID缺失行数,243007
+Description缺失行数,4382

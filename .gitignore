@@ -1,0 +1,10 @@
+# 大文件与中间产物不入库，克隆后执行 `python run_all.py` 即可全部重建
+data/raw/*.xlsx
+data/raw/*.zip
+data/clean/*.pkl
+data/clean/fact_sales.csv
+data/clean/sales.pkl
+data/clean/retail.db
+__pycache__/
+*.pyc
+.DS_Store
